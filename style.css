@@ -1,0 +1,185 @@
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: sans-serif; /* Choose a suitable font */
+    margin: 0;
+    line-height: 1.6;
+    color: #333; /* Dark gray text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #28a745; /* Green background for header */
+    color: white;
+    padding: 1.25rem 0; /* Adjust padding as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Align logo and menu items */
+    align-items: center;
+    padding: 0 1.25rem; /* Add some horizontal padding */
+    max-width: 75rem; /* Optional: Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 1.25rem;
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    margin-left: 0.625rem;
+}
+
+.hero {
+    text-align: center; /* Center text within hero section */
+    padding: 3.125rem 0;
+    max-width: 50rem;  /* Limit width for better readability */
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.625rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+.hero img {
+    max-width: 100%; /* Ensure image doesn't overflow container */
+    height: auto;
+    margin-top: 1.25rem;
+    display: block; /* Prevent image from affecting layout flow */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons button {
+    background-color: #ffc107; /* Yellow button color */
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    margin: 0 0.3125rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+/* Featured Products Styles */
+.featured-products {
+    padding: 3.125rem 0;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;  /* Align items to center horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    margin-top: 1.875rem;
+}
+
+.product {
+    border: 1px solid #eee;
+    padding: 1.25rem;
+    margin: 0.625rem;
+    width: 18.75rem; /* Adjust width as needed */
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%; /* Make sure images fit within the container */
+}
+
+/* Why Choose Us Styles */
+.why-choose-us {
+    padding: 6.25rem 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to next line on smaller screens */
+    justify-content: center;
+    margin-top: 1.875rem;
+}
+
+.feature {
+    width: 15.625rem; /* Adjust width as needed */
+    margin: 1.25rem;
+    text-align: center; /* Center content within each feature */
+}
+
+.feature i {
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+}
+
+.why-choose-us img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.25rem;
+}
+
+/* Make Modern Design Styles */
+.make-modern-design {
+    display: flex;           /* Use flexbox to position the elements */
+    align-items: center;   /* Vertically center content */
+    padding: 3.125rem 1.25rem;    /* Add padding around the content */
+}
+
+/* ... other CSS styles */
+.images {
+    flex: 1;             /* Occupy available space */
+    margin-right: 1.25rem;  /* Add margin between images and content */
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    display: block;    /* Prevent default image spacing */
+    margin-bottom: 0.625rem; /* Adjust spacing between images */
+}
+
+.content {
+    flex: 1;
+}
+
+.more-products {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+
+/* Add more styles for other sections (footer, etc.) as needed */
